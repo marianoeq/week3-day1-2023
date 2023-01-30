@@ -1,7 +1,7 @@
-//Tipado estatico
+//  Tipado estatico
 let foo = 9;
 
-//Tipado fuerte mediante notacion de tipos
+//  Tipado fuerte mediante notacion de tipos
 
 const bar: string = 'Mariuano';
 
@@ -14,3 +14,5 @@ const aData2: string[] = [];
 
 const aData3: (number | string)[] = [];
 const aData4: Array<number | string> = [];
+
+console.log(bar);
